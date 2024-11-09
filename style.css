@@ -49,11 +49,12 @@
 }
 
 .card:hover {
-    flex-grow: 10;
+    flex-grow: 3;
 }
 
 .card:hover img {
     filter: grayscale(0);
+    transform: scale(1.05);
 }
 
 .card:hover .card_head {
